@@ -1,0 +1,40 @@
+package oop1;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String mesaj = "Vade oranı";
+
+		Product product1 = new Product();
+
+		product1.name = "Delonghi Kahve Makinesi";
+		product1.unitPrice = 37500;
+		product1.discount = 70;
+		product1.unitsInStock = 31;
+		product1.imageUrl = "coe1905.jpeg";
+
+		Product product2 = new Product();
+
+		product1.name = "Arceilik Kahve Makinesi";
+		product1.unitPrice = 57500;
+		product1.discount = 71;
+		product1.unitsInStock = 13;
+		product1.imageUrl = "coe1905.jpeg";
+
+		Product product3 = new Product();
+
+		product1.name = "Vestel Kahve Makinesi";
+		product1.unitPrice = 97500;
+		product1.discount = 72;
+		product1.unitsInStock = 33;
+		product1.imageUrl = "coe1905.jpeg";
+		
+		Product[] products = {product1,product2,product3};
+		
+		for (Product product : products) {
+			System.out.println(product);
+		}
+	}
+
+}

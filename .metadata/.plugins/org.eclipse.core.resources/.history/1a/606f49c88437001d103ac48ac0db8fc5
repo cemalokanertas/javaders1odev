@@ -1,0 +1,17 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+			System.out.println("Hello World !");
+			
+			// değişken isimlendirmeleri java'da camelCase olarak yazılır.
+			
+			String ortaMetin ="İlginizi Çekebilir";
+			String altMetin = "Vade Süresi";
+			
+			System.out.println(ortaMetin);
+	}
+
+}
